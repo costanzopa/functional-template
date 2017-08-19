@@ -1,3 +1,7 @@
 (ns exercise4)
 
-(defn summary [x])
+(defn summary
+  "Performs the sum of a sequence of values."
+  [x]
+  (reduce + x)
+  )
